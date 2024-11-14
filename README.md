@@ -66,29 +66,31 @@ This process will allow you to bypass the YouTube restrictions and ensure smooth
    ```
 5. **Clone the Repository**
    ```bash
-   git clone https://github.com/CyberPixelPro/AviaxMusic && cd AviaxMusic
+   git clone https://github.com/nothing-bots/miko 
    ```
-6. **Install Requirements**
+   ```cd AviaxMusic```
+   
+7. **Install Requirements**
    ```bash
    pip3 install -U -r requirements.txt
    ```
-7. **Create .env  with sample.env**
+8. **Create .env  with sample.env**
    ```bash
    cp sample.env .env
    ```
    - Edit .env with your vars
-8. **Editing Vars:**
+9. **Editing Vars:**
    ```bash
    vi .env
    ```
    - Edit .env with your values.
    - Press `I` button on keyboard to start editing.
    - Press `Ctrl + C`  once you are done with editing vars and type `:wq` to save .env or `:qa` to exit editing.
-9. **Installing tmux**
+10. **Installing tmux**
     ```bash
     sudo apt install tmux -y && tmux
     ```
-10. **Run the Bot**
+11. **Run the Bot**
     ```bash
     bash start
     ```
